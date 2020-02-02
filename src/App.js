@@ -34,10 +34,10 @@ function PaymentForm(props) {
         </Grid>
         <Grid style={{ height: '100px' }}>
           <Grid.Column width={5}>
-            <Form.Input fluid type="number" name="month" onChange={props.onChange} onFocus={props.onFocus} />
+            <Form.Input fluid type="number" name="month" placeholder="Month" onChange={props.onChange} onFocus={props.onFocus} />
           </Grid.Column>
           <Grid.Column width={5}>
-            <Form.Input fluid type="number" name="year" onChange={props.onChange} onFocus={props.onFocus} />
+            <Form.Input fluid type="number" name="year" placeholder="Year" onChange={props.onChange} onFocus={props.onFocus} />
           </Grid.Column>
           <Grid.Column floated='right' width={5}>
             <Form.Input fluid type="number" name="cvc" onChange={props.onChange} onFocus={props.onFocus} />
